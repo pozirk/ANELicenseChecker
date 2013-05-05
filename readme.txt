@@ -1,5 +1,6 @@
 # About
 Application Licensing is an Adobe AIR native extension (ANE) for Android that works with Google Play and Samsung Apps (Zirconia).
+It provides preventive measures against illegal distribution of your app.
 
 
 # Docs
@@ -13,7 +14,7 @@ For Google Play: add "LicenseChecker.ane" and "air\LicenseChecker\bin\LicenseChe
 For Samsung Apps: add "SAMLicenseChecker.ane" and "air\LicenseChecker\bin\LicenseChecker.swc" to your AIR project
 
 Add the following lines to your AIR Aplication-app.xml file inside <manifestAdditions> section:
-For Google Play;
+For Google Play:
 <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
 
 For Samsung Apps:
