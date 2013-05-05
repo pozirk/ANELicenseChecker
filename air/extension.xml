@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.7">
+  <id>com.pozirk.LicenseChecker</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>libLicenseChecker.jar</nativeLibrary>
+        <initializer>com.pozirk.license.Extension</initializer>
+        <finalizer>com.pozirk.license.Extension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
