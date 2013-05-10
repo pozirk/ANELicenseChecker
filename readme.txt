@@ -89,3 +89,10 @@ protected function onNotLicensed(event:LicenseCheckerEvent):void
 {
 	... //not licensed
 }
+
+
+# Misc
+ANE is build with AIR3.7, in order to rebuild for another version do the following:
+- edit "air\extension.xml" and change 3.7 in very first line to any 3.X you need;
+- edit "build_andy.bat" (for Google Play) or "build_sam.bat" (for Samsung Apps) and in the very last line change path from AIR3.7 SDK to any AIR3.X SDK you need;
+- execute "build.bat" to repack the ANE.
