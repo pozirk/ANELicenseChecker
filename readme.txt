@@ -10,6 +10,7 @@ http://developer.samsung.com/android/technical-docs/How-to-protect-your-app-from
 
 
 # Installation
+Extension ID: com.pozirk.LicenseChecker
 For Google Play: add "LicenseChecker.ane" and "air\LicenseChecker\bin\LicenseChecker.swc" to your AIR project
 For Samsung Apps: add "SAMLicenseChecker.ane" and "air\LicenseChecker\bin\LicenseChecker.swc" to your AIR project
 
