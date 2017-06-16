@@ -1,3 +1,5 @@
+**I'm not using and not supporting this ANE anymore.**
+
 # About
 Application Licensing is an Adobe AIR native extension (ANE) for Android that works with Google Play and Samsung Apps (Zirconia).
 It provides preventive measures against illegal distribution of your app.
